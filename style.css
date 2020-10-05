@@ -1,12 +1,12 @@
 body{
-    background-color:azure;
+    background-color:whitesmoke;
 }
 
 
 
 .meny {
     overflow: hidden;
-    background-color:darksalmon;
+    background-color:deepskyblue;
     }
 
 .meny a {
@@ -20,7 +20,7 @@ body{
     }
 
 .meny a:hover{
-    background-color:aquamarine;
+    background-color:skyblue;
     }
 .meny a img{
     padding-bottom:1px;

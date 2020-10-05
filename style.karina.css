@@ -13,7 +13,7 @@ body{
     float: left;
     font-size: 16px;
     color: floralwhite;
-    font-family: "Libre Franklin";
+    font-family: "";
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -27,4 +27,16 @@ body{
     padding-top: 1px;
     padding-right: 1px;
     padding-left: 1px;
-}
+    }
+
+
+img{
+    border: 10px;
+    border-style: solid;
+    border-color: darksalmon;
+    margin: 50px;
+    }
+            
+table{
+    margin:auto;
+    }
