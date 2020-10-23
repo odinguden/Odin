@@ -24,7 +24,7 @@ body{
     text-decoration: none;
     }
 
-.meny a:hover{
+.meny a:hover, .liste:hover .listebtn{
     background-color:skyblue;
     }
 .meny a img{
@@ -33,11 +33,51 @@ body{
     padding-right: 1px;
     padding-left: 1px;
 }
+.liste {
+    float: left;
+    overflow: hidden;
+}
+
+.liste .listebtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.liste-innhold {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.liste-innhold a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+
+.liste-innhold a:hover{
+    background-color: skyblue;
+}
+
+.liste:hover .liste-innhold{
+    display: block;
+}
 
 table{
     margin-top: 40px;
     background-color: deepskyblue
     }
+
 img{
     margin-right:0px;
     margin-left: 0px;
