@@ -3,9 +3,10 @@ a{
 }
 
 body{
-    background-color:whitesmoke;
-    padding: 10px;
-}
+    background-image:url(media/index.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
 
 
 
@@ -24,7 +25,7 @@ body{
     text-decoration: none;
     }
 
-.meny a:hover, .liste:hover .listebtn{
+.meny a:hover, nav a:hover, .liste:hover .listebtn{
     background-color:skyblue;
     }
 .meny a img{
@@ -85,4 +86,14 @@ img{
     border: 10px;
     border-style: solid;
     border-color: deepskyblue;
+    }
+
+nav a{
+    float: left;
+    font-size: 16px;
+    color: floralwhite;
+    font-family: "Libre Franklin";
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
     }
