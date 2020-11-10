@@ -6,8 +6,31 @@ body{
     background-image:url(media/index.jpg);
     background-size:cover;
     background-repeat:no-repeat;
+    margin-top: 10%;
+    margin-bottom: 5%;
     }
 
+.innhold{
+    display: grid;
+    grid-gap: 2%;
+    grid-column: 30%;
+    grid-row: 30%;
+    background-color: aqua;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows:30% 30% 30%;
+}
+.stortekst{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: red;
+}
+.artikkel{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    background-color: crimson;
+}
 
 
 .meny {
@@ -25,8 +48,8 @@ body{
     text-decoration: none;
     }
 
-.meny a:hover, nav a:hover, .liste:hover .listebtn{
-    background-color:skyblue;
+.meny a:hover, nav a:hover, .liste:hover, ikon:hover, .listebtn{
+    background-color:#191919;
     }
 .meny a img{
     padding-bottom:1px;
@@ -74,26 +97,79 @@ body{
     display: block;
 }
 
-table{
-    margin-top: 40px;
-    background-color: deepskyblue
-    }
-
 img{
     margin-right:0px;
     margin-left: 0px;
     margin-top: 20px;
     border: 10px;
     border-style: solid;
-    border-color: deepskyblue;
+    border-color: ;
     }
 
-nav a{
-    float: left;
-    font-size: 16px;
-    color: floralwhite;
-    font-family: "Libre Franklin";
-    text-align: center;
+.ikon{
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
     padding: 14px 16px;
-    text-decoration: none;
-    }
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    float: right;
+    
+}
+
+nav a{
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    float: left;
+}
+nav{
+    align-content: center;
+    overflow: hidden;
+    background-color: black;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: block;
+    height: auto;   
+    background-color: black; 
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    display: block;
+    height: auto;   
+    background-color: black; 
+    align-items:right;
+    text-align: right;
+    
+}
+h3{
+    color:white
+}
+
+
+footer img{
+    border-radius: 50%;
+    margin: 0px;
+    margin-right: 5px;
+    
+}
+footer table{
+    margin-left: auto;
+    margin-right: 0px;
+}
