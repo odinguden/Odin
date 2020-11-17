@@ -4,14 +4,128 @@
     
     <head>
         <meta charset="utf-8">
-        <title>Heim</title>
-        <link rel="stylesheet" href="style.css">
+        <title>Triste Kattar</title>
         <style>
-            
-            
+            a{
+                text-decoration:none;
+            }
+            nav a{
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    float: left;
+}
+nav{
+    align-content: center;
+    overflow: hidden;
+    background-color: black;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: block;
+    height: auto;   
+    background-color: black; 
+}
+            body{
+                padding: 20px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+
+                grid-gap: 20px;
+                justify-content: center;
+                }
+            article{
+                background-color: aqua;
+                text-align: center;
+                max-width: inherit;
+                padding: 10px;
+            }
+            img{
+                max-width: 100%;
+            }
+            .overskrift{
+                grid-row-start: 1;
+                grid-row-end: 1;
+                grid-column-start: 1;
+                grid-column-end: 4;
+            }
+            .meny {
+    overflow: hidden;
+    background-color:deepskyblue;
+    }
+
+.meny a {
+    float: left;
+    font-size: 16px;
+    color: floralwhite;
+    font-family: "Libre Franklin";
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+.meny a:hover, nav a:hover, .liste:hover, ikon:hover, .listebtn{
+    background-color:#191919;
+    }
+.meny a img{
+    padding-bottom:1px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-left: 1px;
+}
+.liste {
+    float: left;
+    overflow: hidden;
+}
+
+.liste .listebtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.liste-innhold {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.liste-innhold a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+
+.liste-innhold a:hover{
+    background-color: skyblue;
+}
+
+.liste:hover .liste-innhold{
+    display: block;
+}
         </style>
         
     </head>
+    
+    
     <body>
         <header>
             <nav>
@@ -21,27 +135,38 @@
                         <div class="liste-innhold">
                             <a href="karina.html">Karina</a>
                             <a href="anette.html"> Anette</a>
-                            <a href="#3">3</a>
+                            <a href="trist_katt.html">Triste Kattar</a>
                         </div>
                 </div>
                 
-                <div class="ikon"><a href=#test>hei</a></div>
             </nav>
-        </header>  
+        </header>   
+        <article class="overskrift"><h1>Triste kattar</h1></article>
         
-        <main>
-            <div class="stortekst"><h3>test</h3></div>
-
-        </main>
+        <article><img src="media/trist_katt/1.jpg"></article>
+        <article><img src="media/trist_katt/2.png"></article>
+        <article><img src="media/trist_katt/3.jpg"></article>
         
-        <footer>
-            <table>
-                <tr>
-                    <td><h3> thest </h3></td>
-                    <td><img src="media/meme.bakrunn.png" height="10px"></td>
-                </tr>
-            </table>
-        </footer>
+        <article><img src="media/trist_katt/4.jpg"></article>
+        <article><img src="media/trist_katt/5.jpg"></article>
+        <article><img src="media/trist_katt/6.jpg"></article>
+        
+        <article><img src="media/trist_katt/7.jpg"></article>
+        <article><img src="media/trist_katt/8.jpg"></article>
+        <article><img src="media/trist_katt/9.jpg"></article>
+        
+        <article><img src="media/trist_katt/10.jpg"></article>
+        <article><img src="media/trist_katt/11.jpg"></article>
+        <article><img src="media/trist_katt/12.jpg"></article>
+        
+        <article><img src="media/trist_katt/13.png"></article>
+        <article><img src="media/trist_katt/14.png"></article>
+        <article><img src="media/trist_katt/15.jpg"></article>
+        
+        <article><img src="media/trist_katt/16.jpg"></article>
+        <article><img src="media/trist_katt/17.jpg"></article>
+        <article><img src="media/trist_katt/18.jpg"></article>
+        
         
     </body>
 
