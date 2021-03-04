@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="no">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Prosjekt</title>
+        
+        <style>
+            body{
+                background-color: black;
+            }
+            
+            #bilde{
+                margin:40px auto;
+                display: flex;
+                width: 800px;
+                height: 320px;
+            }
+            
+            #bilde>div{
+                flex: 1;
+                background-color: #b00d23;
+                border: 4px solid white;
+                opacity: 0.6;
+                background-position:center;
+                background-size: cover;
+                transition: 0.5s;
+            }
+            
+            #bilde>div:hover{
+                flex: 4;
+                transform: scale(1.2);
+                opacity: 1;
+                z-index: 1;
+            }
+            #1{background-image: url(1.jpg)}
+            #2{background-image: url(2.jpg)}
+            #3{background-image: url(3.jpg)}
+            #4{background-image: url(4.jpg)}
+            #5{background-image: url(5.jpg)}
+            #6{background-image: url(6.jpg)}
+            
+        </style>
+        
+    </head>
+    
+    
+    <body>
+        <div id="bilde">
+            <div style="background-image:url(1.jpg);"></div>
+            <div style="background-image:url(2.jpg);"></div>
+            <div style="background-image:url(3.jpg);"></div>
+            <div style="background-image:url(4.jpg);"></div>
+            <div style="background-image:url(5.jpg);"></div>
+            <div style="background-image:url(6.jpg);"></div>
+        </div>
+        
+        
+    </body>
+
+</html>

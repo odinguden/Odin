@@ -3,16 +3,16 @@ a{
 }
 
 body{
-    background-image:url(media/index.jpg);
+    background-color: black;
     background-size:cover;
     background-repeat:no-repeat;
     margin-top: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 0%;
     }
 
 
 .stortekst{
-    height: 500px;
+    height: ;
     width: 100%;
     text-align: center;
 }
@@ -31,7 +31,7 @@ body{
 .meny a {
     float: left;
     font-size: 16px;
-    color: floralwhite;
+    color: #b00d23;
     font-family: "Libre Franklin";
     text-align: center;
     padding: 14px 16px;
@@ -65,7 +65,7 @@ body{
 .liste-innhold {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #b00d23;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -137,7 +137,8 @@ header{
 }
 
 footer{
-    position: fixed;
+    margin-top: 5%;
+    position:;
     bottom: 0;
     right: 0;
     width: 100%;
@@ -149,20 +150,61 @@ footer{
     
 }
 main{
-    width: auto;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
 }
 h3{
     color:white
 }
 
 
-footer img{
-    border-radius: 50%;
-    margin: 0px;
-    margin-right: 5px;
-    
+footer img, footer .ikon img{
+    margin: 1px;
+    border: none;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    bottom: 40;
+    right: 40;
 }
 footer table{
     margin-left: auto;
     margin-right: 0px;
 }
+
+footer .ikon{
+    border-radius: 100%;
+    background-color: #b00d23;
+    height:12px;
+    width:12px;
+    padding: 1px;
+    position: absolute;
+    bottom: 40;
+    right: 40;
+}
+
+
+.bilde{
+    background-color: #b00d23;
+    padding: 20px;
+    max-width: 100%;
+    grid-column: span 8;
+}
+
+.bilde img{
+    width: 100%;
+    border: none;
+}
+
+.kol-1 {grid-column: span 1;}
+.kol-2 {grid-column: span 2;}
+.kol-3 {grid-column: span 3;}
+.kol-4 {grid-column: span 4;}
+.kol-5 {grid-column: span 5;}
+.kol-6 {grid-column: span 6;}
+.kol-7 {grid-column: span 7;}
+.kol-8 {grid-column: span 8;}
+.kol-9 {grid-column: span 9;}
+.kol-10 {grid-column: span 10;}
+.kol-11 {grid-column: span 11;}
+.kol-12 {grid-column: span 12;}
